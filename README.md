@@ -24,7 +24,7 @@ O foco desse projeto é mostrar as habilidades backend aprendidas ao longo de do
 - **Banco de Dados**: [Nome do Banco de Dados, ex MySQL, ]
 - **Autenticação**: JWT, OAuth2.0
 - **Docker**: Contêineres simultâneos para ambiente de desenvolvimento e produção
-- **Outras Ferramentas**: [Ferramentas adicionais, ex: Docker, Swagger]
+- **Outras Ferramentas**: [Ferramentas adicionais, ex: Docker]
 
 ## Estrutura do Projeto
 
