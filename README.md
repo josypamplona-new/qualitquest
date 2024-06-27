@@ -25,20 +25,4 @@ O foco desse projeto é mostrar as habilidades backend aprendidas ao longo de do
 - **Autenticação**: JWT, OAuth2.0
 - **Outras Ferramentas**: [Ferramentas adicionais, ex: Docker, Swagger]
 
-## Estrutura do Projeto
-```bash
-├── src
-|    ├── backend
-│     ├── controllers
-│     ├── models
-│     ├── routes
-│     ├── services
-│     └── utils
-|    ├── backend  
-├── tests
-│   ├── unit
-│   └── integration
-├── .env.example
-├── package.json
-├── tsconfig.json
-└── README.md
+
