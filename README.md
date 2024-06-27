@@ -26,7 +26,7 @@ O foco desse projeto é mostrar as habilidades backend aprendidas ao longo de do
 - **Outras Ferramentas**: [Ferramentas adicionais, ex: Docker, Swagger]
 
 ## Estrutura do Projeto
-
+```bash
 ├── src
 |    ├── backend
 │     ├── controllers
