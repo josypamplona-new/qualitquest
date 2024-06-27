@@ -21,8 +21,27 @@ O foco desse projeto é mostrar as habilidades backend aprendidas ao longo de do
 
 - **Linguagem**: TypeScript
 - **Framework**: [Nome do Framework, ex: Express, NestJS]
-- **Banco de Dados**: [Nome do Banco de Dados, ex: PostgreSQL, MongoDB]
+- **Banco de Dados**: [Nome do Banco de Dados, ex MySQL, ]
 - **Autenticação**: JWT, OAuth2.0
+- **Docker**: Contêineres simultâneos para ambiente de desenvolvimento e produção
 - **Outras Ferramentas**: [Ferramentas adicionais, ex: Docker, Swagger]
 
+## Estrutura do Projeto
 
+```plaintext
+src/
+├── backend/
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── services
+│   └── utils
+├── tests
+│   ├── unit
+│   └── integration
+├── .env.example
+├── docker-compose.yml
+├── Dockerfile
+├── package.json
+├── tsconfig.json
+└── README.md
