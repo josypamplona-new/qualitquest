@@ -31,23 +31,22 @@ O foco deste projeto é mostrar as habilidades backend aprendidas ao longo de do
 
 
 ## Querido Diário
-- O que fiz até agora?
-IMPLANTEI O FRONT END com React Node (não o desenvolvi).
+*** O que fiz até agora?***
+- IMPLANTEI O FRONT END com React Node (não o desenvolvi).
 USEI O COMANDO docker para desenvolver um container para banco de dados:
 
-```plaintext
 docker run --name qualitquest-db -e MYSQL_ROOT_PASSWORD=123456 -d mysql:latest
 
 - ATRAVÉS DO COMANDO na pasta app/backend/src:
 
-```plaintext
+
 npx sequelize-cli db:seed:all
 
 - Implantei a pasta config, migration, models, seeds.
 
 DENTRO DA RAIZ backend, onde está instalado o Node para backend, usei o comando:
 
-```plaintext
+
 npm install express sequelize sequelize-cli mysql2
 
 ```plaintext
