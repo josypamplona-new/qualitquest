@@ -35,6 +35,8 @@ O foco deste projeto é mostrar as habilidades backend aprendidas ao longo de do
 - IMPLANTEI O FRONT END com React Node (não o desenvolvi).
 USEI O COMANDO docker para desenvolver um container para banco de dados:
 
+docker pull mysql:latest
+
 docker run --name qualitquest-db -e MYSQL_ROOT_PASSWORD=123456 -d mysql:latest
 
 - ATRAVÉS DO COMANDO na pasta app/backend/src:
@@ -48,6 +50,30 @@ DENTRO DA RAIZ backend, onde está instalado o Node para backend, usei o comando
 
 
 npm install express sequelize sequelize-cli mysql2
+
+- DENTRO DA RAIZ DO PROJET configurei o arquivo com a variavel process com o comando
+
+npm i --save-dev @types/node
+-----------------------------------
+****REZETEI O PROGETO****
+**POR PROBLEAMAS DE CRIAÇÃO DE CONTAINERES RESETEI TUDO TIREI O FRONT E PREOCUPEI SOMENTE EM CRIAR O DB E O BACKEND**
+** DENTRO DA PASTA BACKEN INICIEI O NODE**
+npm init -y  
+instalei dependencias
+npm install -D typescript  
+npm install --save @nestjs/sequelize sequelize sequelize-typescript mysql2
+
+-DEPOIS 
+npm install --save-dev @types/sequelize
+npm install @types/express  
+
+-depois 
+
+npm install cpy-cli del-cli --save-dev
+
+-subi os containers simultaneos 
+
+docker compose up
 
 ```plaintext
 app/    
